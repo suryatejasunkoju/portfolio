@@ -72,7 +72,7 @@ function App() {
 
   const downloadResume = () => {
     // Download resume from public folder
-    const resumeUrl = '/suryateja-backend-resume.pdf';
+    const resumeUrl = '/suryateja-full-stack-resume.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Suryateja_Sunkoju_Resume.pdf';
