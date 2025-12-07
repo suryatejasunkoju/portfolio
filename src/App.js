@@ -110,11 +110,13 @@ function App() {
       period: 'July 2023 – Present',
       location: 'Bangalore',
       logo: 'https://s3-eu-west-1.amazonaws.com/tpd/logos/615437925a3980001d77b694/0x0.png',
-      description: 'Leading backend development initiatives, microservices architecture, and performance optimization for healthcare technology platform.',
+      description: 'Monolith → Microservices migration | Leading performance optimizing (90% faster APIs) | Building React pages and dashboards (CYOT, Orders Calendar)',
       achievements: [
         'Led migration from monolith to microservices (User/Catalog/Order) using OpenFeign + Kafka',
         'Reduced API response time 90% (800 ms → <100 ms) and search latency 70% via code refactoring, composite indexes, and Elasticsearch migration',
         'Detected and blocked active abuse of search APIs (150 GB/day Elasticsearch egress); implemented IP filtering, mandatory headers, rate limiting, payload validation and prepared statements — fully stopped the exploit',
+        'Built Orders Calendar View dashboard in React with advanced filters (date, status, city, homecare), server-side pagination, and CSV/Excel export — used daily by ops team',
+        'Designed and developed “Create Your Own Test” (CYOT) feature in React with real-time search, multi-level category filtering',
         'Automated order-to-invoice sync (Unicommerce ↔ Zoho Books) via Kafka & schedulers — eliminated 80% manual bookkeeping for 50K+ monthly orders',
         'Engineered OCR pipeline (Spring Boot + Tesseract) for 8 labs — eliminated 80% manual data entry',
         'Built Nurse app backend with Google Maps real-time ETA + OTP — improved nurse efficiency 60%',
@@ -183,10 +185,10 @@ function App() {
             <h1 className="hero-title">
               <span className="greeting">Hi, I'm</span>
               <span className="name">Suryateja Sunkoju</span>
-              <span className="role">Backend Developer</span>
+              <span className="role">Java Full Stack Developer</span>
             </h1>
             <p className="hero-description">
-              Backend Developer with 3 years of experience in Spring Boot, Microservices, and Cloud technologies.
+              Java Full Stack Developer with 3 years of experience in Spring Boot, Microservices, and Cloud technologies.
               Led monolith to microservices migration and reduced API latency by 90%.
             </p>
             <div className="hero-buttons">
@@ -229,9 +231,9 @@ function App() {
           <div className="about-content">
             <div className="about-text">
               <p>
-                I'm a Backend Developer with 3 years of experience specializing in Java, Spring Boot, 
-                and Microservices architecture. I have a proven track record of leading complex migrations, 
-                optimizing system performance, and building scalable backend solutions.
+                I'm a Java Full Stack Developer with 3 years of experience specializing in Java, Spring Boot,
+                Microservices architecture and React js. I have a proven track record of leading complex migrations,
+                optimizing system performance, and building scalable solutions.
               </p>
               <p>
                 My expertise includes designing and implementing microservices architectures, reducing API 
@@ -248,8 +250,8 @@ function App() {
                   <p>API Latency Reduction</p>
                 </div>
                 <div className="stat">
-                  <h3>50K+</h3>
-                  <p>Orders Automated/Month</p>
+                  <h3>4</h3>
+                  <p>projects worked on</p>
                 </div>
               </div>
             </div>
