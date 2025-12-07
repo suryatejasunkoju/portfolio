@@ -135,26 +135,26 @@ function App() {
     }
   ];
 
-  const projects = [
-    {
-      title: 'Microservices Architecture Migration',
-      description: 'Led migration from monolithic architecture to microservices, implementing User, Catalog, and Order services with OpenFeign and Kafka for inter-service communication.',
-      tech: ['Spring Boot 3', 'Kafka', 'OpenFeign', 'MySQL', 'Docker'],
-      link: '#'
-    },
-    {
-      title: 'OCR Pipeline for Lab Data Processing',
-      description: 'Engineered OCR pipeline using Spring Boot and Tesseract to automate data entry for 8 labs, eliminating 80% of manual work.',
-      tech: ['Spring Boot', 'Tesseract', 'Java', 'REST APIs'],
-      link: '#'
-    },
-    {
-      title: 'Order-to-Invoice Automation',
-      description: 'Automated synchronization between Unicommerce and Zoho Books using Kafka and schedulers, handling 50K+ monthly orders and eliminating 80% manual bookkeeping.',
-      tech: ['Kafka', 'Spring Boot', 'Schedulers', 'Zoho API', 'Unicommerce API'],
-      link: '#'
-    }
-  ];
+  // const projects = [
+  //   {
+  //     title: 'Microservices Architecture Migration',
+  //     description: 'Led migration from monolithic architecture to microservices, implementing User, Catalog, and Order services with OpenFeign and Kafka for inter-service communication.',
+  //     tech: ['Spring Boot 3', 'Kafka', 'OpenFeign', 'MySQL', 'Docker'],
+  //     link: '#'
+  //   },
+  //   {
+  //     title: 'OCR Pipeline for Lab Data Processing',
+  //     description: 'Engineered OCR pipeline using Spring Boot and Tesseract to automate data entry for 8 labs, eliminating 80% of manual work.',
+  //     tech: ['Spring Boot', 'Tesseract', 'Java', 'REST APIs'],
+  //     link: '#'
+  //   },
+  //   {
+  //     title: 'Order-to-Invoice Automation',
+  //     description: 'Automated synchronization between Unicommerce and Zoho Books using Kafka and schedulers, handling 50K+ monthly orders and eliminating 80% manual bookkeeping.',
+  //     tech: ['Kafka', 'Spring Boot', 'Schedulers', 'Zoho API', 'Unicommerce API'],
+  //     link: '#'
+  //   }
+  // ];
 
   return (
     <div className="App">
